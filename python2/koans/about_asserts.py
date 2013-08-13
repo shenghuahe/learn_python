@@ -15,26 +15,26 @@ class AboutAsserts(Koan):
         #
         #   http://bit.ly/about_asserts
 
-        self.assertTrue(False)  # This should be true
+        self.assertTrue(True)  # This should be true
 
     def test_assert_with_message(self):
         """
         Enlightenment may be more easily achieved with appropriate messages.
         """
-        self.assertTrue(False, "This should be true -- Please fix this")
+        self.assertTrue(True, "This should be true -- Please fix this")
 
     def test_fill_in_values(self):
         """
         Sometimes we will ask you to fill in the values
         """
-        self.assertEqual(__, 1 + 1)
+        self.assertEqual(2, 1 + 1)
 
     def test_assert_equality(self):
         """
         To understand reality, we must compare our expectations against
         reality.
         """
-        expected_value = __
+        expected_value = 2
         actual_value = 1 + 1
         self.assertTrue(expected_value == actual_value)
 
@@ -44,7 +44,6 @@ class AboutAsserts(Koan):
         """
         expected_value = __
         actual_value = 1 + 1
-
         self.assertEqual(expected_value, actual_value)
 
     def test_that_unittest_asserts_work_the_same_way_as_python_asserts(self):

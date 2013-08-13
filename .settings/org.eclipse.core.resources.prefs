@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//python2/contemplate_koans.py=utf-8
+encoding//python2/koans/__init__.py=utf-8
+encoding//python2/koans/a_normal_folder/a_module.py=utf-8
+encoding//python2/koans/a_package_folder/__init__.py=utf-8
+encoding//python2/koans/a_package_folder/a_module.py=utf-8
+encoding//python2/koans/about_asserts.py=utf-8
+encoding//python2/koans/about_regex.py=utf-8
